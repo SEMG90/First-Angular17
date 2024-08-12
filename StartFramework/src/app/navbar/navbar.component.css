@@ -1,0 +1,21 @@
+/* general css */
+:root{
+    --navbar-bg-color:#2b3d4f;
+}
+/* navbar */
+.navbar-custom{
+    background-color: #2b3d4f !important;
+    padding: 30px 0;
+}
+.navbar-brand{
+    font-size: 30px;
+}
+.nav-link{
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+    margin: 0 10px;
+}
+.navbar .navbar-nav a{
+    cursor: pointer;
+}

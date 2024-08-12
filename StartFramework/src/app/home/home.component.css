@@ -1,0 +1,23 @@
+/* background svg */
+.content svg{
+    background-color: #1abd9c;
+    padding: 0 15px;
+    position: relative;
+}
+/* draw line beside star >> div content */
+.content h1{
+    position: relative;
+}
+.content h1::before{
+    position: absolute;
+    content: "";
+    margin: 0 auto;
+    top: 72px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 4px;
+    background-color: #fff;
+}
+

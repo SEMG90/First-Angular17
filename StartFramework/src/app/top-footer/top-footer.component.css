@@ -1,0 +1,18 @@
+/* top footer */
+.top-footer{
+    padding: 100px 0;
+}
+/* about */
+.top-footer .about p{
+    width: 85%;
+    text-align: center;
+    margin: auto;
+}
+/* social */
+.top-footer .social .social-body svg{
+    border: 1px solid #fff;
+    border-radius: 50%;
+}
+.top-footer .social .social-body svg:hover{
+    background-color: #19242e;
+}
